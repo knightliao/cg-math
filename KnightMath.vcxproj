@@ -73,14 +73,11 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="VectorR2.cpp" />
+    <ClInclude Include="headers\KnightMath.h" />
+    <ClInclude Include="headers\VectorR2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="KnightMath.h" />
-    <ClInclude Include="VectorR2.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <ClCompile Include="cpp\VectorR2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
